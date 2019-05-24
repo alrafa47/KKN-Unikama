@@ -1,0 +1,104 @@
+.main-detailDesa{
+	width: 1260px;
+	margin : 40px auto;
+	border: 5px solid black;
+	padding: 15px;
+	box-sizing: border-box;
+	overflow: auto;
+	background-color: white;
+}
+
+
+/*//////////////////////////////////*/
+.wrapper{
+	width:570px;
+	overflow: hidden;
+	display: inline-block;
+}
+.wrapper .gallery img{
+	width: 575px;;
+	border: solid 2px #484848;
+	border-radius: 5px 5px 0 0;
+}
+.wrapper ul {margin-top: 1px;}
+.wrapper li {list-style: none;}
+.wrapper li a {
+	float: left;
+	margin-right: 10px;
+}
+.wrapper .thumbnail img{
+	width:85px;
+	cursor:pointer;
+	border:solid 2px #484848;
+	padding: 2px;
+}
+/*]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]*/
+
+.biodata-desa{
+	display: inline-block;
+	margin-left: 20px;
+	width: 200px;
+	max-height: 390px;
+	background-color: #E67817;
+}
+.isiDetailDesa{
+	display: inline-block;
+	width: 635px;
+	border: 5px solid orange;
+	padding: 20px;
+	position: absolute;
+	margin-left: 20px;
+	min-height: 390px;
+	overflow: auto;
+	box-sizing: border-box;
+
+}
+
+.beritaDesa{
+	width: 100%;	
+	border: 5px solid orange;
+	margin-top: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.title-beritaDesa{
+	font-size: 40px;
+	margin: 20px 55px;
+}
+
+/*TABLE=============================================*/
+table {
+	font-size: 18px;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.table  tr , td {
+	/*border: 1px solid #ddd;*/
+	padding-top: 20px;
+	padding-top: 20px;
+
+
+}
+.table th{
+	text-align: left;
+	min-width: 145px;
+}
+
+/*=================IMAGE=================================*/
+.img-pengumuman{
+	border: 5px solid orange;
+	height: 146px;
+	width: 220px;
+	float: left;
+	border-right-width: 0px;
+}
+.title-detailDesa{
+	width: 1260px;
+	margin: 40px auto;
+}

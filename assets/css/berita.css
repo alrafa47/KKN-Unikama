@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+}
+
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+	border: 1px solid blue;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+/* 
+  memberikan ukuran pada 
+  masing-masing kolom grid 
+  */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  .label {
+  	text-align: center;
+  	color: white;
+  	margin: 20px auto;
+  }
+  .body-konten{
+  	width: 1355px;
+  	margin : 40px auto;
+  }
+  /*konten berita*/
+  .main-detailBerita{
+  	width: 975px;
+  	box-sizing: border-box;
+  	display: inline-block;
+  	float: left;
+  }
+  .img-detailBerita{
+  	width: 930px;
+  	display: block;
+  }
+  .bottom-detailBerita{
+
+  }
+  .input-text{
+  	height: 35.98438px;
+  	padding: 10px;
+  	font-size: 15px;
+  	width: 273.98438px; 
+  	border: 1px solid orange;
+  }
+  .input-button{
+  	width: 60.98438px;
+  	height: 36.98438px;
+  }
+  .find{
+  	margin-bottom: 10px;
+  	margin-left: 15px;
+  	float: left;
+  }
+  /*konten berita */
+  .side-detailBerita{
+    background-color: white;
+    float: left;
+    padding: 15px 30px;
+    width: 340px;
+    min-height: 545px;
+	/*top: 240px;
+	left: 1109px;*/
+	display: inline-block;
+	border: 2px solid #E67817;
+	margin-left: 15px;
+	box-sizing: border-box;
+
+}
+.data-link a {
+	text-decoration: none;
+	color: orange;
+}
+.pagination ul {
+  padding-left: 0px;
+  display: inline-block;
+  *display: inline;
+  margin-bottom: 0;
+  margin-left: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.pagination ul  li {
+  display: inline;
+}
+.pagination ul  li  a, .pagination ul  li  span {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left-width: 0;
+}
+
+.kotak{
+  background-color: white;
+  width: 48.66%;
+  float: left;
+  border: 3px solid #E47818;
+  box-sizing: border-box;
+  margin-right: 13px;
+  margin-bottom: 13px;
+}
+.kotak-head{
+  margin: 5px;
+}
+.kotak-title{
+ float: left;
+ font-size: 25px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ margin-left: 5px;
+}
+
+.kotak-img {
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  width: 53%;
+  height: 170px;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  float: left;
+}
+.kotak-body{
+  margin:5px;
+}
+.kotak-body a {
+  display: block;
+}
+.kotak-body p {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.kotak-footer .link{
+  color: white;
+  display: inline-block;
+  margin: 5px;
+}
+.link .left{
+  float: left;
+}
+.link .right{
+  float: right;
+
+}
+.kotak-footer{
+  background-color: #E47818;
+}
